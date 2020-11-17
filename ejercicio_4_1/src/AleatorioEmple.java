@@ -9,11 +9,12 @@ public class AleatorioEmple
     {
         crear();
         leer();
-        
+        System.out.println("HolaMundo");
     }
 
     public static void leer() throws IOException
     {
+        System.out.println("Hola mundo");
         File fichero = new File("AleatorioEmple.dat");
         RandomAccessFile file = new RandomAccessFile(fichero, "r");
         char cad[] = new char[10], aux;
