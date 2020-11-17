@@ -9,6 +9,7 @@ public class AleatorioEmple
     {
         crear();
         leer();
+        
     }
 
     public static void leer() throws IOException
