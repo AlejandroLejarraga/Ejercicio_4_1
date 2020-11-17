@@ -51,6 +51,7 @@ public class AleatorioEmple
     public static void crear() throws IOException
     {
         File fichero = new File("AleatorioEmple.dat");
+        System.out.println("Hola mundo");
         RandomAccessFile file = new RandomAccessFile(fichero, "rw");
         String apellido[] = {"FERNANDEZ", "GIL", "LOPEZ", "RAMOS", "SEVILLA", "CASILLA", "REY"};
         int dep[] = {10, 20, 10, 10, 30, 30, 20};
